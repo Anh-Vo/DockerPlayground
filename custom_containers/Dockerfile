@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-ARG SITE="deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
 RUN apt-get -y update \
 && apt-get -y install apt-transport-https ca-certificates curl\
  software-properties-common \
